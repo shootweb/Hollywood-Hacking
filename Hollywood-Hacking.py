@@ -94,8 +94,8 @@ def random_popup(parent):
         if not app_running:
             return
 
-        popup_width = window_width
-        popup_height = window_height
+        popup_width = int(window_width * 0.6)
+        popup_height = int(window_height * 0.6)
         x_position = (screen_width - popup_width) // 2
         y_position = (screen_height - popup_height) // 2
 
