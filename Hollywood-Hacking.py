@@ -19,8 +19,8 @@ window_width = screen_width // 2
 window_height = screen_height // 2
 
 # Popup dimensions (1/6 of screen size)
-popup_width = screen_width // 4
-popup_height = screen_height // 4
+popup_width = screen_width // 3
+popup_height = screen_height // 3
 
 # Global flag to check if the app is running
 app_running = True
@@ -35,7 +35,7 @@ def gibberish_hashes(parent):
 
     def update_gibberish():
         while app_running:
-            gibberish = secrets.token_hex(random.randint(8, 60))
+            gibberish = secrets.token_hex(random.randint(8, 64))
             text.insert(tk.END, gibberish + "\n")
             text.see(tk.END)
             time.sleep(0.1)
@@ -65,7 +65,7 @@ def meaningless_memory_relocation(parent):
         while app_running:
             message = random.choice(packets)
             relocation = generate_memory_relocation()
-            formatted_message = f"    {message:<25} {relocation}\n"
+            formatted_message = f"      {message:<25} {relocation}\n"
             text.insert(tk.END, formatted_message)
             text.see(tk.END)
             time.sleep(0.7)
