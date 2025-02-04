@@ -19,8 +19,8 @@ window_width = screen_width // 2
 window_height = screen_height // 2
 
 # Popup dimensions (1/6 of screen size)
-popup_width = screen_width // 6
-popup_height = screen_height // 6
+popup_width = screen_width // 4
+popup_height = screen_height // 4
 
 # Global flag to check if the app is running
 app_running = True
