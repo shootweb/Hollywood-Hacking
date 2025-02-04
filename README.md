@@ -17,8 +17,7 @@ This Python script simulates various cybersecurity-related activities in multipl
 
 
 
-
-https://github.com/user-attachments/assets/a6bff8a9-84c3-4a3d-b63b-1cdf80bfdd27
+https://github.com/user-attachments/assets/47ae19de-bf65-4fcb-b309-6cfb94a9ed4b
 
 
 ## Installation
